@@ -20,4 +20,4 @@ CREATE TABLE `rss_feeds` (
 --
 
 INSERT INTO `rss_feeds` (`rss_id`, `rss_url`, `rss_next_pool`, `rss_pool_period_minutes`, `rss_active`, `rss_lang`, `rss_caption`, `rss_sbc_id`) VALUES
-(1,'http://www.oranta.org/index.php?format=feed&type=rss','2015-06-19 00:00:00',1,1,'uk','Детальніше читайте на сайті http://www.oranta.org/',26);
+(1,'http://www.oranta.org/index.php?format=feed&type=rss','2015-06-19 10:41:39',1,1,'uk','Детальніше читайте на сайті http://www.oranta.org/',26);
