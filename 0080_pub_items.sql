@@ -12,7 +12,7 @@ CREATE TABLE `pub_items` (
   `pbi_state` varchar(3) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `pbi_text` mediumtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   `pbi_title` varchar(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
-  `pbi_lang_id` varchar(3) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_lang_id` varchar(3) DEFAULT NULL,
   `pbi_id` decimal(10,0) NOT NULL DEFAULT '0',
   `pbi_pub_id` decimal(10,0) DEFAULT NULL,
   `pbi_can_comment` tinyint(1) DEFAULT NULL,
