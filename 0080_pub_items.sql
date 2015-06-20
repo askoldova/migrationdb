@@ -17,7 +17,8 @@ CREATE TABLE `pub_items` (
   `pbi_pub_id` decimal(10,0) DEFAULT NULL,
   `pbi_can_comment` tinyint(1) DEFAULT NULL,
   `pbi_author` varchar(80) DEFAULT NULL,
-  PRIMARY KEY (`pbi_id`)
+  PRIMARY KEY (`pbi_id`),
+  KEY `index2` (`pbi_id`,`pbi_lang_id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 
